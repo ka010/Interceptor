@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="2396"
+   name=""
+   committed-date="2005-05-19T09:05:41.816108Z"
+   url="http://src.growl.info/growl/tags/growl-0.7.4/Display%20Plugins/MusicVideo/Japanese.lproj"
+   last-author="ingmarstein"
+   kind="dir"
+   uuid="e274d63c-9ee0-0310-ac37-d19d4f03b9fb"
+   revision="3631"/>
+<entry
+   name="GrowlMusicVideoPrefs.nib"
+   kind="dir"/>
+</wc-entries>
