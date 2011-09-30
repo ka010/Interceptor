@@ -10,6 +10,9 @@
 #import "InterceptorPrefs.h"
 #import "JSON.h"
 
+
+#define kInterceptorNotification @"InterceptorGrowlNotification"
+
 @class GrowlApplicationNotification;
 
 @interface InterceptorDisplay : GrowlDisplayPlugin {

@@ -102,7 +102,7 @@
     NSLog(@"%@", dict);
     
     
-    [[NSDistributedNotificationCenter defaultCenter]postNotificationName:@"MWProxyDidGetNotification" object:[writer stringWithObject:dict] userInfo:nil deliverImmediately:YES];
+    [[NSDistributedNotificationCenter defaultCenter]postNotificationName:kInterceptorNotification object:[writer stringWithObject:dict] userInfo:nil deliverImmediately:YES];
     [dict release];
     
 }
