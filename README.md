@@ -24,23 +24,16 @@ First, subscribe to the notification
   
 Then setup a method to handle Notifications. The data is encoded in JSON and formatted like this:
 
-```
-/*
-         Subscribe to Interceptor Notications
-         */
-        [[NSDistributedNotificationCenter defaultCenter]addObserver:self 
-                                                           selector:@selector(mwmDidReceiveNotification:) 
-                                                               name:@"InterceptorGrowlNotification" 
-                                                             object:nil];
- ```
-  
-Then setup a method to handle Notifications. The data is encoded in JSON and formatted like this:
 
-```{
+```
+{
 	"src":"Growl",
-	"title":"Preview","
-	text":"This is a preview of the Interceptor display"
-}```
+	
+	"title":"Preview",
+	
+	"text":"This is a preview of the Interceptor display"
+}
+```
 
 
 Use a JSON parser to get a dictionary representation of the above.
