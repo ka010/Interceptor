@@ -4,17 +4,13 @@ Interceptor is a Growl Display that allows other Applications to receive Growl N
 Basically it does two things, if a Growl notification arrives it:
 
 1. Displays the notification using a regular display style (configurable in the settings)
-<<<<<<< HEAD
 
-=======
->>>>>>> 7dbb115035534a762ed842ef3436e706bfd13068
 2. Posts a NSNotification to the NSDistributedNotificationCenter including the notifications content encoded in JSON.  
 
 # Usage
 Here's how to receive notifications from Interceptor in another Application 
   
 First, subscribe to the notification
-<<<<<<< HEAD
 
 ```
 /*
@@ -28,7 +24,6 @@ First, subscribe to the notification
   
 Then setup a method to handle Notifications. The data is encoded in JSON and formatted like this:
 
-=======
 ```
 /*
          Subscribe to Interceptor Notications
@@ -40,7 +35,7 @@ Then setup a method to handle Notifications. The data is encoded in JSON and for
  ```
   
 Then setup a method to handle Notifications. The data is encoded in JSON and formatted like this:
->>>>>>> 7dbb115035534a762ed842ef3436e706bfd13068
+
 ```{
 	"src":"Growl",
 	"title":"Preview","
